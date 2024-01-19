@@ -1,0 +1,3 @@
+mkdir -p $HOME/.kubesudo 
+cp -i /etc/kubernetes/admin.conf 
+$HOME/.kube/configsudo chown $(id -u):$(id -g) $HOME/.kube/config
