@@ -1,3 +1,0 @@
-mkdir -p $HOME/.kubesudo 
-cp -i /etc/kubernetes/admin.conf #如果目标文件已经存在，使用 -i 选项将使得 cp 命令在覆盖之前给出提示，以避免不小心覆盖重要文件
-$HOME/.kube/configsudo chown $(id -u):$(id -g) $HOME/.kube/config
